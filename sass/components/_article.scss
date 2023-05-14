@@ -1,0 +1,35 @@
+.article {
+  padding: 4.8rem;
+
+  &__icon {
+    margin-bottom: 1rem;
+  }
+
+  &__btn {
+    padding: 0.8em 2.1em;
+    border-radius: 2.5rem;
+    outline: 3px solid $Very-light-gray;
+    mix-blend-mode: screen;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    @media screen and (width > 930px) {
+      margin-top: 5.3rem;
+    }
+    &:hover,
+    &:focus-visible {
+      background-color: transparent;
+      color: $Very-light-gray;
+      outline: 3px solid $Very-light-gray;
+    }
+  }
+
+  &--primary-color {
+    background-color: $Bright-orange;
+  }
+  &--secondary-color {
+    background-color: $Dark-cyan;
+  }
+  &--tertiary-color {
+    background-color: $Very-dark-cyan;
+  }
+}

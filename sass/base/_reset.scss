@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+h1 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+button {
+  border: none;
+  font: inherit;
+}
